@@ -1,4 +1,4 @@
-import { Input, Button, Spacer, Checkbox, Card, Divider } from "@nextui-org/react";
+import { Input, Button, Spacer,  Card, Divider } from "@nextui-org/react";
 import { FieldValues, useForm } from 'react-hook-form';
 import { useCreateProductMutation } from "../../redux/api/product/productApi";
 import Swal from "sweetalert2";
@@ -82,9 +82,7 @@ const AddProductPage = () => {
                     />
                     <Spacer y={2} />
 
-                    <Checkbox isRequired >
-                        I agree to the terms and conditions
-                    </Checkbox>
+                    
                     <Spacer y={1.5} />
                     <Button type="submit" color="primary" fullWidth>
                         Create Product

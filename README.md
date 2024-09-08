@@ -8,7 +8,7 @@ Users can log in to access the application. After logging in, they can view all 
 
 Live link: https://comfy-liger-56f668.netlify.app
 
-code link: https://github.com/roy-Pritom/Heritage
+code link: https://github.com/roy-Pritom/product-management
 
 Currently, two official plugins are available:
 
